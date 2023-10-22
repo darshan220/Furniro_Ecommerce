@@ -9,7 +9,6 @@ export const sideImages = [
   { id: 3, src: item3, alt: "item3" },
   { id: 4, src: item4, alt: "item4" },
 ];
-
 export const sofaInfo = [
   {
     id:1,
