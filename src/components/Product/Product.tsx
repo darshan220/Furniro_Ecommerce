@@ -9,7 +9,7 @@ const Product = () => {
   return (
     <>
       <div className="w-full h-[100px] bg-orange-50">
-        <div className="flex items-center h-full gap-x-8 pl-20">
+        <div className="flex items-center h-full gap-x-8 lg:pl-20 max-md:justify-center">
           <span className="text-neutral-400">Home</span>
           <span>&gt;</span>
           <span className="text-neutral-400">shop</span>
