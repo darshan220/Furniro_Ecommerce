@@ -3,11 +3,11 @@ import { productCards } from "../../utils/constants";
 
 const Cards = () => {
   return (
-    <div className="w-full h-[777px] border-t border-zinc-300">
+    <div className="w-full h-full border-t border-zinc-300">
       <div className="flex items-center justify-center text-4xl m-10">
         Related Products
       </div>
-      <div className="w-full flex gap-12 justify-center">
+      <div className="w-full flex gap-12 justify-center max-md:flex-col max-md:items-center ">
         {productCards.map((item) => {
           const { src, title, description, price, discount } = item;
           return (
