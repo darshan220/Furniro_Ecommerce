@@ -66,10 +66,10 @@ const Product = () => {
             <button className="w-full md:w-[123px] h-16 bg-white border border-gray-400 rounded-lg px-3 py-2">
               - 1 +
             </button>
-            <button className="w-full md:w-[215px] h-16 text-xl bg-white border border-gray-400 rounded-lg px-3 py-2">
+            <button className="w-full md:w-[215px] h-16 text-xl bg-white border border-gray-400 rounded-lg px-3 py-2 hover:bg-gray-400">
               Add to Cart
             </button>
-            <button className="w-full md:w-[215px] h-16 text-xl bg-white border border-gray-400 rounded-lg px-3 py-2">
+            <button className="w-full md:w-[215px] h-16 text-xl bg-white border border-gray-400 rounded-lg px-3 py-2 hover:bg-gray-400">
               + Compare
             </button>
           </div>

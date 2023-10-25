@@ -6,13 +6,13 @@ import ProductInfo from "./components/ProductInformation/ProductInfo";
 
 function App() {
   return (
-    <>
+    <div className="w-full max-w-[1440px] mx-auto max-md:p-1">
       <Header />
       <Product />
       <ProductInfo />
       <Cards />
       <Footer />
-    </>
+    </div>
   );
 }
 

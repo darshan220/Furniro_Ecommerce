@@ -38,7 +38,7 @@ const Cards = () => {
         })}
       </div>
       <div className="flex items-center justify-center text-4xl m-10">
-        <button className="text-yellow-600 w-[245px] h-12 bg-white border border-yellow-600 text-sm">
+        <button className="text-yellow-600 w-[245px] h-12 bg-white border border-yellow-600 text-sm hover:bg-yellow-100">
           Show More
         </button>
       </div>
