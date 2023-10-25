@@ -1,8 +1,6 @@
 import { useState } from "react";
 import cloudSofaLeft from "../../ui/cloudSofa/cloudSofaLeft.png";
 import cloudSofaRight from "../../ui/cloudSofa/cloudSofaRight.png";
-// import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-// import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const ProductInfo = () => {
   const information = ["Description", "Additional Information", "Reviews [5]"];
@@ -10,7 +8,7 @@ const ProductInfo = () => {
 
   return (
     <>
-      <div className="w-full h-full border-t border-zinc-300 max-md:p-1">
+      <div className="w-full h-full border-t border-zinc-300 max-md:p-1 lg:pb-4">
         <div className="gap-16 items-center justify-center h-[120px] text-2xl font-medium hidden lg:flex">
           <span>Description</span>
           <span className="text-neutral-400">Additional Information</span>
